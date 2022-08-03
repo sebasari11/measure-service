@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar gradle/wrapper/gradle-wrapper.jar
+web: java -Dserver.port=8080
