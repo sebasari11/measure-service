@@ -11,3 +11,7 @@ spring:
 
     application:
       name: measure-service
+  cloud:
+    config:
+      enabled: false
+
