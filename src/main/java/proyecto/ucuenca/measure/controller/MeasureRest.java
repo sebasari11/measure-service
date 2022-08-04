@@ -20,6 +20,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @Slf4j
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/measures")
 public class MeasureRest {
